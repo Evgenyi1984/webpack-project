@@ -1,0 +1,33 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgenyi1984/webpack-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": "https://github.com/Evgenyi1984/webpack-project/issues"
+  },
+  "homepage": "https://github.com/Evgenyi1984/webpack-project#readme",
+  "devDependencies": {
+    "@babel/core": "^8.1.0",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.10.2",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  }
+}
